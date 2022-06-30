@@ -21,7 +21,7 @@ public class FindNumber {
 
     public static void main(String[] args) {
         int[] array = {1, 2, 3, 1, 2, 4};
-        int number = 3;
+        int number = 2;
 
         FindNumber find = new FindNumber();
         find.uniqueNumber(array, number);

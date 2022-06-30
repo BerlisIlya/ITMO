@@ -1,4 +1,4 @@
-package Lessons;
+package Lessons.LaboratoryWork2;
 
 public class City {
 
