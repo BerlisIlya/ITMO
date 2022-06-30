@@ -3,7 +3,16 @@ package Lessons.LaboratoryWork5;
 import java.util.Scanner;
 
 public class Palindrome {
-    public void reverse() {
+    public void reverse(String word, StringBuilder builder) {
+
+        if (word.equalsIgnoreCase(builder.toString())) {
+            System.out.println("This word is a palindrome");
+        } else {
+            System.out.println("This word is not palindrome");
+        }
+    }
+
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Input your word: ");
@@ -15,15 +24,7 @@ public class Palindrome {
         System.out.println(builder);
         System.out.println();
 
-        if (word.equalsIgnoreCase(builder.toString())) {
-            System.out.println("This word is a palindrome");
-        } else {
-            System.out.println("This word is not palindrome");
-        }
-    }
-
-    public static void main(String[] args) {
         Palindrome palindrome = new Palindrome();
-        palindrome.reverse();
+        palindrome.reverse(word, builder);
     }
 }

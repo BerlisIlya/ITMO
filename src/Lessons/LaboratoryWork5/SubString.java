@@ -6,7 +6,6 @@ public class SubString {
 
     public void sub(String first, String second) {
 
-
         char[] array = first.toCharArray();
         String comp;
         int conut = 0;
