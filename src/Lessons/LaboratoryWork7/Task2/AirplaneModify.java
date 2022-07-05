@@ -2,27 +2,27 @@ package Lessons.LaboratoryWork7.Task2;
 
 public class AirplaneModify {
 
-    static class Wing1{
+    static class Wing1 {
         private double weightWing1;
 
-        private void setWeightWing1(){
+        private void setWeightWing1() {
             this.weightWing1 = 220.358;
         }
 
-        public void shouWeight1(){
+        public void shouWeight1() {
             setWeightWing1();
             System.out.println(weightWing1 + " kg");
         }
     }
 
-    static class Wing2{
+    static class Wing2 {
         private double weightWing2;
 
-        private void setWeightWing2(double weightWing2){
+        private void setWeightWing2(double weightWing2) {
             this.weightWing2 = weightWing2;
         }
 
-        public void shouWeight2(){
+        public void shouWeight2() {
             setWeightWing2(220.348);
             System.out.println(weightWing2 + " kg");
         }

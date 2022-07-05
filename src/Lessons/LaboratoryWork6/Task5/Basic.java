@@ -6,16 +6,16 @@ public class Basic {
     Scanner scanner = new Scanner(System.in);
     private Integer age = scanner.nextInt();
 
-    public void setAge(Integer age){
+    public void setAge(Integer age) {
         this.age = age;
     }
 
-    public void userInformation(){
+    public void userInformation() {
         System.out.println("Enter user age");
         setAge(age);
     }
 
-    public String toString(Integer age){
+    public String toString(Integer age) {
         return "Basic:" +
                 " age = '" + age + '\'' +
                 '}';

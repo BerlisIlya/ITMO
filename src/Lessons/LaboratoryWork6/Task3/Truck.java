@@ -1,6 +1,6 @@
 package Lessons.LaboratoryWork6.Task3;
 
-public class Truck extends Car{
+public class Truck extends Car {
     private int wheels;
     private double maxWeight;
 
@@ -10,12 +10,12 @@ public class Truck extends Car{
         this.maxWeight = maxWeight;
     }
 
-    public void newWheels(Integer newWheels){
+    public void newWheels(Integer newWheels) {
         System.out.println(model + " has " + wheels + " wheels but it was change on " + newWheels);
         wheels = newWheels;
     }
 
-    public void outPut(){
+    public void outPut() {
         System.out.println("Weight " + model + " is " + weight + "kg");
         System.out.println("Max weight " + maxWeight + ", whells" + wheels);
         System.out.println("Color of the car is " + color

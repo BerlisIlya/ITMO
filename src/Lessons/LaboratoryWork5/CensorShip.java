@@ -6,7 +6,6 @@ public class CensorShip {
 
     public static void censor(String[] word, StringBuilder builder) {
 
-
         for (String w : word) {
             if (w.equalsIgnoreCase("бяка")) builder.append(" [вырезано цензурой]");
             else builder.append(String.format(" %s", word));
