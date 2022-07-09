@@ -1,8 +1,8 @@
-package Lessons.LaboratoryWork6.Task1;
+package Lessons.LaboratoryWork6_Extending.Task1;
 
 public abstract class Human {
-    public String firstName;
-    public String lastName;
+    protected String firstName;
+    protected String lastName;
 
     public void name(String firstName, String lastName) {
         this.firstName = firstName;

@@ -1,4 +1,4 @@
-package Lessons.LaboratoryWork6.Task5;
+package Lessons.LaboratoryWork6_Extending.Task5;
 
 import java.util.Scanner;
 

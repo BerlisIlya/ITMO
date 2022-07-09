@@ -1,4 +1,4 @@
-package Lessons.LaboratoryWork6.Task4;
+package Lessons.LaboratoryWork6_Extending.Task4;
 
 public class Heir extends Main {
     public void outPut() {

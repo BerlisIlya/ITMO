@@ -1,4 +1,4 @@
-package Lessons.LaboratoryWork6.Task3;
+package Lessons.LaboratoryWork6_Extending.Task3;
 
 public class Main {
     public static void main(String[] args) {

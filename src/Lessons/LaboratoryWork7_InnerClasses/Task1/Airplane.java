@@ -1,4 +1,4 @@
-package Lessons.LaboratoryWork7.Task1;
+package Lessons.LaboratoryWork7_InnerClasses.Task1;
 
 import java.util.Scanner;
 

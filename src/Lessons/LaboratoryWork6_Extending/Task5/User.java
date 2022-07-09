@@ -1,4 +1,4 @@
-package Lessons.LaboratoryWork6.Task5;
+package Lessons.LaboratoryWork6_Extending.Task5;
 
 public class User extends Basic {
     String name;

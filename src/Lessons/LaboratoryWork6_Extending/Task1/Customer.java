@@ -1,4 +1,4 @@
-package Lessons.LaboratoryWork6.Task1;
+package Lessons.LaboratoryWork6_Extending.Task1;
 
 import java.util.Scanner;
 
@@ -39,7 +39,7 @@ public class Customer extends Human {
 
     @Override
     public void information() {
-        System.out.println(toString());
+        System.out.println(this);
     }
 
 }

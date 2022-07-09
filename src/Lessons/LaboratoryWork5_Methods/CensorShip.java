@@ -1,4 +1,4 @@
-package Lessons.LaboratoryWork5;
+package Lessons.LaboratoryWork5_Methods;
 
 import java.util.Scanner;
 

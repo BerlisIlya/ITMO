@@ -1,4 +1,4 @@
-package Lessons.LaboratoryWork7.Task2;
+package Lessons.LaboratoryWork7_InnerClasses.Task2;
 
 public class AirplaneModify {
 
@@ -18,12 +18,12 @@ public class AirplaneModify {
     static class Wing2 {
         private double weightWing2;
 
-        private void setWeightWing2(double weightWing2) {
-            this.weightWing2 = weightWing2;
+        private void setWeightWing2() {
+            this.weightWing2 = 220.348;
         }
 
         public void shouWeight2() {
-            setWeightWing2(220.348);
+            setWeightWing2();
             System.out.println(weightWing2 + " kg");
         }
     }

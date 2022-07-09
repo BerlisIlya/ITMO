@@ -1,9 +1,5 @@
 package Lessons.LaboratoryWork3;
 
-import com.sun.source.tree.CaseTree;
-
-import java.awt.*;
-
 public class CharacterOfTheCar {
 
     private String name;

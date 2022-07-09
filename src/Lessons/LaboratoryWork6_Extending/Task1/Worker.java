@@ -1,4 +1,4 @@
-package Lessons.LaboratoryWork6.Task1;
+package Lessons.LaboratoryWork6_Extending.Task1;
 
 import java.util.Scanner;
 
@@ -29,7 +29,7 @@ public class Worker extends Human {
 
     @Override
     public String toString() {
-        return "Customer{" +
+        return "Worker{" +
                 "firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", bank='" + bank + '\'' +
@@ -38,6 +38,6 @@ public class Worker extends Human {
 
     @Override
     public void information() {
-        System.out.println(toString());
+        System.out.println(this);
     }
 }
