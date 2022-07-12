@@ -2,32 +2,38 @@ package Lessons.LaboratoryWork9_Collections.Set;
 
 import java.util.*;
 
+
 public class GetAndReturn {
 
-    public static void gettingCollection() {
-        List<String> stringList = new ArrayList<>();
+    static class Information{
+        String fistname;
+        String lastname;
 
-        stringList.add("Berlis");
-        stringList.add("Ilya");
-        stringList.add("Berlis");
-        stringList.add("berlis");
-        stringList.add("Saint-Petersburg");
-        stringList.add("Saint-Petersburg");
-        stringList.add("Saint-Petersburg");
-        stringList.add("Saint-Petersburg");
-        stringList.add("Russian Federation");
-        stringList.add("world");
-        stringList.add("Ilya");
-        stringList.add("death");
-        stringList.add("nothing");
-        stringList.add("nothing");
-        stringList.add("nothing");
-        stringList.add("street");
+        public Information(String fistname, String lastname){
+            this.fistname = fistname;
+            this.lastname = lastname;
+        }
+    }
+
+    public static HashSet<Information> cleanCollection(List<Information> enterList){
+        HashSet<Information> info = new HashSet<Information>();
+        info.addAll(enterList);
+        return info;
+    }
+
+    public static void gettingCollection() {
+        List<Information> stringList = new ArrayList<Information>();
+
+        stringList.add(new Information("Berlis", "Ilya"));
+        stringList.add(new Information("Chupahina", "Elena"));
+        stringList.add(new Information("Berlis", "Ilya"));
+        stringList.add(new Information("Mask", "Ilon"));
+        stringList.add(new Information("Packard", "Hewlett"));
+        stringList.add(new Information("Spears", "Britney"));
 
         System.out.println("Full collection: " + stringList);
 
-        Set<String> strings1 = new HashSet<>(stringList);
-        System.out.println("Collection without duplicate: " + strings1);
+        System.out.println("Collection without duplicate: " + cleanCollection(stringList));
     }
 
     public static void main(String[] args) {
