@@ -1,4 +1,4 @@
-package Lessons.LaboratoryWork10;
+package Lessons.LaboratoryWork10_ReadWriteAndConcat;
 
 import java.io.*;
 
